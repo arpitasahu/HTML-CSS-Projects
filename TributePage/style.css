@@ -1,0 +1,82 @@
+body{
+  background-color: black;
+  color:#fff;
+}
+.main{
+  width:90%;
+  margin:auto;
+  height:800px;
+}
+#title{
+  text-align: center;
+  font-size: 90px;
+  font-family: 'Lobster', cursive;
+
+}
+span{
+  color:rgb(3, 158, 93);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow:   0px -6px 0 #8f1313,  
+                 0px -6px 0 #8f1313,
+                 0px  6px 0 #8f1313,
+                 0px  6px 0 #8f1313,
+                -6px  0px 0 #8f1313,  
+                 6px  0px 0 #8f1313,
+                -6px  0px 0 #8f1313,
+                 6px  0px 0 #8f1313,
+                -6px -6px 0 #8f1313,  
+                 6px -6px 0 #8f1313,
+                -6px  6px 0 #8f1313,
+                 6px  6px 0 #8f1313,
+                -6px  18px 0 #8f1313,
+                 0px  18px 0 #8f1313,
+                 6px  18px 0 #8f1313,
+                 0 19px 1px rgba(0,0,0,.1),
+                 0 0 6px rgba(0,0,0,.1),
+                 0 6px 3px rgba(0,0,0,.3),
+                 0 12px 6px rgba(0,0,0,.2),
+                 0 18px 18px rgba(0,0,0,.25),
+                 0 24px 24px rgba(0,0,0,.2),
+                 0 36px 36px rgba(0,0,0,.15);
+
+}
+#image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:330px;
+  border-radius: 20px;
+
+}
+p{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 2em;
+}
+
+#work{
+  font-family: 'Lobster', cursive; 
+  font-size:40px;
+  padding-top:20px;
+}
+li{
+  font-size:30px;
+  line-height: 2em;
+}
+
+li:hover{
+  color: yellow;
+}
+
+#tribute-link{
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+  color:rgb(42, 248, 6);
+
+}
+#tribute-link:hover{
+  color:rgb(240, 15, 15);
+
+}
